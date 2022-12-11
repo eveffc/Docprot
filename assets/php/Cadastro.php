@@ -6,28 +6,31 @@
 	<title>Cadastro | DOCprot</title>
 	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="../css/base.css">
-	<link rel="stylesheet" type="text/css" href="#"> <!~~ adicionar~~>
+	<link rel="stylesheet" type="text/css" href="../css/cadastro.css"> 
 	<link rel="preconnect" href="https://fonts.googleapis.com"/>
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
 </head>
 <body>
-	<div id="cadastro">
-		<h1>Novo Usuário</h1>
-		<form class="card" action="cad.php" method="post">
-			<label for="nome">Nome</label>
-			<input id="nome" nome="nome" required>
-			<label for="sobrenome">Sobrenome</label>
-			<input id="sobrenome" nome="sobrenome" required>
-			<label for="email">E-mail</label>
-			<input type="email" id="email" name="email" autocomplete="off" required>
-			<label for="senha">Senha</label>
-			<input type="password" id="senha" name="senha" autocomplete="off" required>
-			<div class="link"><a href="../../public/index.php">Cancelar</a></div>
-			<div class="botao">
-				<input type="submit" class="enviar" value="Criar" name="submit" onclick="">
-			</div>
-		</form>
+	<div id="Cadastro">
+		<div class="title">
+			<h1>Novo usuário</h1>
+		</div>
+		<div class="form">
+			<form>
+			<label>Nome:</label>
+			<input type="" name="nome">
+			<label>Sobrenome:</label>
+			<input type="" name="sobrenome">
+			<label>E-mail</label>
+			<input type="email" name="email">
+			<label>Senha:</label>
+			<input type="password" name="senha">
+			<div class="link"><a href="../../index.php">Fazer Login</a></div>
+			<div class="botao"><button type="submit" onclick="">Criar</button></div>
+			</form>
+		</div>
 	</div>
+
 </body>
 </html>
