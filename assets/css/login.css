@@ -1,0 +1,19 @@
+#login{
+	width: auto;
+	margin-top: 50px;
+}
+.logo{
+	float: left;
+	margin: 100px;
+	margin-top: 200px;
+}
+.card{
+	float: right;
+	background-color: rgba(19, 19, 19, 0.3);
+	padding: 70px;
+	margin: 50px;
+	margin-top: 75px;
+	border-radius: 60px;
+	width: 300px;
+	height: 250px;
+}
